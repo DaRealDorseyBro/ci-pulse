@@ -5,7 +5,7 @@ requires-python = ">=3.10"
 dependencies = ["requests", "prometheus-client"]
 
 [project.optional-dependencies]
-dev = ["pytest", "ruff"]
+dev = ["pytest", "ruff", "python-dotenv"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
