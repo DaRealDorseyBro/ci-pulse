@@ -1,0 +1,11 @@
+[project]
+name = "ci-pulse"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["requests", "prometheus-client"]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
